@@ -1,0 +1,63 @@
+* {
+    margin: auto;
+}
+
+body {
+    background-color: #212529;
+    font-family: 'Poppins';
+    color: #ffffff;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+main {
+    font-family: 'Inter';
+}
+
+.cajaMediana {
+    background-color: #292b2c;
+}
+
+li {
+    display: inline;
+    list-style: none;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited,
+a:link {
+    color: white;
+}
+
+a:hover {
+    color: #ffb742;
+}
+
+button {
+    font-weight: 800;
+    color: black;
+    width: 70px;
+    height: 30px;
+    left: 1271px;
+    top: 23.06px;
+
+    background: #FFB742;
+    border: 2px solid #FFB742;
+    border-radius: 50px;
+    border-style: none;
+    margin: 20px 5px;
+}
+
+section{
+    display: flex;
+}
+
+footer {
+    background-color: #1c1c1c;
+}

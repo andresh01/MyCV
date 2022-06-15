@@ -1,37 +1,116 @@
 * {
-    margin: auto;
+    margin: 0;
 }
 
 body {
+    padding: 10px;
     background-color: #212529;
     font-family: 'Poppins';
     color: #ffffff;
 }
 
 header{
-    display: flex;
-    justify-content: space-between;
+    width: 1342px;
+    height: 66px;
+    padding: 17px 49px 108px 49px;
+    display:flex; 
+    justify-content: space-between;   
 }
+
+ul{
+    margin: 25px 0 0 0;
+    font-size: 18px;
+}
+
 main {
+    width: 675px;
+    height: 461px;
+    padding: 108px 383px 133px 382px;
+    /* margin: 60px; */
+    justify-content: space-between;
     font-family: 'Inter';
+    text-align:center;
+}
+
+
+#nameyellow {
+    color: #ffb742;
+    display: inline;
+}
+
+h3{
+    font-size: 24px;
+    margin: 30px;
+}
+
+#caja-experiencia{
+    width: 1296px;
+    height: 120px;
+    padding: 133px 72px 108px 72px;
+
 }
 
 .cajaMediana {
+    width: 416px;
+    height: 120px;
+    /* padding: 0px 24px 0px 24px; */
+    margin: 0px 24px 0px 24px;
     background-color: #292b2c;
+    justify-content: space-between;
+    font-family: 'Inter';
+    border-radius: 10px;
+    
 }
+
+.numeros{
+    color: #ffb742;
+    font-size: 32px;
+}
+
+.alinearTexto{
+    display: flex;
+
+}
+
+span{
+    display: block;
+    text-align: center;
+}
+
+.espacioNumero{
+    margin: 25px 52px;
+    display: block;
+    text-align: center;
+    
+}
+
+.icono{
+    width: 64px;
+    height: 64px;
+    padding: 28px 30px ;
+}
+
+.size{
+    font-size: 16px;
+}
+
+.centro{
+    
+    display: flex;
+}
+
 
 li {
     display: inline;
-    list-style: none;
+    list-style-type: none;
     margin: 10px;
 }
-
+ 
 a {
     text-decoration: none;
 }
 
-a:visited,
-a:link {
+a:visited, a:link {
     color: white;
 }
 
@@ -42,8 +121,8 @@ a:hover {
 button {
     font-weight: 800;
     color: black;
-    width: 70px;
-    height: 30px;
+    width: 80px;
+    height: 40px;
     left: 1271px;
     top: 23.06px;
 
@@ -51,13 +130,93 @@ button {
     border: 2px solid #FFB742;
     border-radius: 50px;
     border-style: none;
-    margin: 20px 5px;
+    margin: 15px 5px;
 }
 
 section{
     display: flex;
 }
 
-footer {
-    background-color: #1c1c1c;
+
+#nombre{
+    width: 232px;
+    height: 42px;
+    margin: 0px 0px;
+    color: #ffb742;
+    font-size: 32px;
+    text-align: left;
 }
+
+.alinear-nombreF h2{
+    margin: 30px 0px;
+    font-size: 16px;
+    font-family: "Work Sans";
+    color: #d4d4d4;
+
+}
+
+.links {
+    display: block;
+    color: #7c7c7c;
+} 
+
+.social{
+    display: block;
+    color: #7c7c7c;
+} 
+
+.hire{
+    text-align:justify;
+}
+
+#alinear-nombreF{
+    width: 253px;
+    height: 218px;
+    padding: 148px 0px 0px 50px;
+}
+
+#alinear-nombreF{
+    text-align:left;
+}
+
+#alinear-linksF{
+    width: 139px;
+    height: 192px;
+    padding: 148px 0px 0px 128px;
+}
+
+#alinear-mediaF{
+    width: 143px;
+    height: 232px;
+    padding: 148px 0px 0px 201px;
+}
+
+#alinear-hireF{
+    width: 319px;
+    height: 208px;
+    padding: 144px 0px 0px 157px;
+}
+
+h4{
+    text-align: right;
+}
+
+footer {
+    width: 1450px;
+    height: 470px;
+    margin-bottom: 52px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1c1c1c;
+    font-family: "Work Sans";
+
+}
+
+/* footer ul{
+    flex-direction: column;
+}
+
+footer span{
+    display: block;
+} */

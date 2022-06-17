@@ -112,7 +112,7 @@ a {
 
 a:visited, a:link {
     color: white;
-}
+} 
 
 a:hover {
     color: #ffb742;
@@ -160,13 +160,25 @@ section{
     color: #7c7c7c;
 } 
 
+.colorsocial:visited, .color:link{
+    color: gray;
+}
+
 .social{
     display: block;
-    color: #7c7c7c;
+    
 } 
 
 .hire{
     text-align:justify;
+}
+
+.texto-hire{
+    width: 319px;
+    height: 73px;
+    color: #7c7c7c;
+    margin-top: 20px ;
+    font-size: 18px;
 }
 
 #alinear-nombreF{
@@ -200,6 +212,18 @@ section{
 h4{
     text-align: right;
 }
+
+#entrada-email{
+    width: 310px;
+    height: 63px;
+    border-radius: 50px;
+    background-color:  #212529;
+    border-color: #212529;
+
+
+}
+
+
 
 footer {
     width: 1450px;

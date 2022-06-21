@@ -10,7 +10,7 @@ body {
 }
 
 header{
-    padding: 5px 49px 108px 49px;
+    padding: 5px 49px 100px 49px;
     display:flex; 
     justify-content: space-between;   
 }
@@ -60,54 +60,36 @@ button {
 
 /*+++++++++++++++++End Header++++++++++++++++++++++++++*/
 
-section{
-    /* justify-content: center; */
-    
+#container{
+    display: flex;
 }
 
-#box{
-    
-    display: flex;
-    justify-content: space-around;
-    
+#sub-container{
+    padding: 110px 10px 70px 30px;
+}
+
+#image{
+    padding: 0px 30px 40px 30px;
 }
 
 section h4{
-    /* width: 120px;*/
-    height: 42px;
-    /* margin-bottom: 11px; */
-    color:#FFB742;
-    background-color: #292B2E;
+    color:#ffb742;
+    padding: 10px 15px;
     font-size: 20px;
-    
-    
 }
 
-
-section h2{
-    font-size: 46px;
-    margin-bottom: 80px;
+section h1{
+    font-family: 'roboto';
+    font-size: 48px;
+    padding-bottom: 30px;
 }
 
-h2, h4{
-    text-align: center;
+section p{
+    font-size: 16px;
+    padding-bottom: 60px;
 }
 
-.small-box{
-    width: 270px;
-    height: 330px;
-    border-radius: 8px;
-    background-color: white;
-    color: black;
-    
-}
-
-.flex-smallbox{
-    display: flex;
-    justify-content: space-between;
-}
-
-/*++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*++++++++++++++++++++++++++++endMain++++++++++++++++++++++*/
 
 footer{
     display: flex;
@@ -184,3 +166,6 @@ footer h4{
     margin-top: 18px;
     margin-bottom: 60px;
 }
+
+
+

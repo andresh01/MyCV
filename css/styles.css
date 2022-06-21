@@ -10,11 +10,14 @@ body {
 }
 
 header{
-    width: 1342px;
-    height: 66px;
-    padding: 17px 49px 108px 49px;
+    padding: 5px 49px 100px 49px;
     display:flex; 
     justify-content: space-between;   
+}
+
+.logo{
+    width: 65px;
+    height: 70px;
 }
 
 ul{
@@ -22,9 +25,15 @@ ul{
     font-size: 18px;
 }
 
+li {
+    display: inline;
+    list-style-type: none;
+    margin: 10px;
+}
+
 main {
-    width: 675px;
-    height: 461px;
+/*     width: 675px;
+    height: 461px; */
     padding: 108px 383px 133px 382px;
     /* margin: 60px; */
     justify-content: space-between;
@@ -84,12 +93,12 @@ span{
     
 }
 
-.icono{
+/* .icono{
     width: 64px;
     height: 64px;
     padding: 28px 30px ;
 }
-
+ */
 .size{
     font-size: 16px;
 }
@@ -226,8 +235,8 @@ h4{
 
 
 footer {
-    width: 1450px;
-    height: 470px;
+/*     width: 1450px;
+    height: 470px; */
     margin-bottom: 52px;
     margin-top: 0px;
     display: flex;

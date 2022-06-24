@@ -167,5 +167,18 @@ footer h4{
     margin-bottom: 60px;
 }
 
+#box-email{
+    height: 30px;
+    background-color: #212529;
+    color: #7c7c7c;
+    border-radius: 30px;
+    padding: 15px;
+    font-size: 18px;
+}
+
+#form{
+    display:flex;
+}
+
 
 

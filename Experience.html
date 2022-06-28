@@ -11,70 +11,66 @@
         href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&family=Poppins:ital,wght@0,400;0,500;1,400&family=Work+Sans:ital,wght@0,400;0,500;1,600&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/stylesExp.css">
-    <title>My CV</title>
+    <title>Experience</title>
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <img class="logo" src="img/Frame 7.svg" alt="logo">
         <nav>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./about.html">About</a></li>
-                <li><a href="./Experience.html">Experience</a></li>
-                <li><a href="./Contact.html">Contact</a></li>
+            <ul class="ul">
+                <li class="li"><a href="./index.html">Home</a></li>
+                <li class="li"><a href="./about.html">About</a></li>
+                <li class="li"><a href="./Experience.html">Experience</a></li>
+                <li class="li"><a href="./Contact.html">Contact</a></li>
             </ul>
         </nav>
-        <button>Hire Me</button>
+        <button id="button">Hire me</button>
     </header>
 
-    <section>
-        <h4>EXPERIENCE</h4>
+    <section id="section">
+        <div id="exp">
+            <h4>EXPERIENCE</h4>
+        </div>
         <h2>Practice Makes Better</h2>
 
         <section id="box">
             <div class="small-box">
                 <div class="flex-smallbox">
-                    <div>
-                        <h3>Empresa1</h3>
-                        <p>Nombre1</p>
+                    <div class="texto">
+                        <h3>Electronic coordinator</h3>
+                        <p>Alberto Cadavid y Cia</p>
                     </div>
-                    <img class="logo" src="/img/image 2.png" alt="">
+                    <img class="logo" src="./img/image 1.png" alt="">
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, nulla id harum officiis,
-                    Recusandae
-                    voluptatem totam accusamus commodi?</p>
+                <p class="descripcion">Coordinate the maintenance and repairtion the machines and automate them</p>
             </div>
 
             <div class="small-box">
                 <div class="flex-smallbox">
-                    <div>
-                        <h3>Empresa2</h3>
-                        <p>Nombre2</p>
+                    <div class="texto">
+                        <h3>Project Engineer</h3>
+                        <p>Efecsa</p>
                     </div>
-                    <img class="logo" src="/img/image 2.png" alt="">
+                    <img class="logo" src="./img/image 2.png" alt="">
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, nulla id harum officiis,
-                    Recusandae
-                    voluptatem totam accusamus commodi?</p>
+                <p class="descripcion">Creation of systems and devices according to the client’s need</p>
             </div>
 
             <div class="small-box">
                 <div class="flex-smallbox">
-                    <div>
-                        <h3>Empresa3</h3>
-                        <p>Nombre3</p>
+                    <div class="texto">
+                        <h3>Mechatronic</h3>
+                        <p>Independent</p>
                     </div>
-                    <img class="logo" src="/img/image 2.png" alt="">
+                    <img class="logo" src="./img/image 3.png" alt="">
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, nulla id harum officiis,
-                    Recusandae
-                    voluptatem totam accusamus commodi?</p>
+                <p class="descripcion">Maintenance of electrical enclosure device and repair of industrial machinery</p>
             </div>
         </section>
     </section>
 
-    <footer>
+    <footer id="footer">
         <div id="alinear-nombre">
             <h3>Andres Henao</h3>
             <p id="text">Creative Designer</p>
@@ -83,34 +79,33 @@
         <div id="alinear-link">
             <h4 id="center">Useful links</h4>
             <ul>
-                <li class="li-footer">Home</li>
-                <li class="li-footer">About</li>
-                <li class="li-footer">Experience</li>
-                <li class="li-footer">Contact</li>
+                <li class="li-footer"> <a class="color" href="./index.html">Home</a></li>
+                <li class="li-footer"> <a class="color" href="./about.html">About</a></li>
+                <li class="li-footer"> <a class="color" href="./Experience.html">Experience</a></li>
+                <li class="li-footer"> <a class="color" href="./Contact.html">Contact </a></li>
             </ul>
         </div>
         <div id="alinear-social">
             <h4 id="center">Social Media</h4>
             <ul>
-                <li class="li-footer"> <a class="color" href="">Linkedin</a></li>
-                <li class="li-footer"> <a class="color" href="">Github</a></li>
-                <li class="li-footer"> <a class="color" href="">Instagram</a></li>
+                <li class="li-footer"> <a class="color" href="https://www.linkedin.com/in/jorge-andres-henao-5499a8166/">Linkedin</a></li>
+                <li class="li-footer"> <a class="color" href="https://github.com/andresh01">Github</a></li>
+                <li class="li-footer"> <a class="color" href="https://www.instagram.com/andrechohenao/">Instagram</a></li>
             </ul>
         </div>
         <div id="alinear-hire">
             <h4>Hire Me</h4>
             <p>Enter your email to get my portafolio and CV</p>
 
-
             <div id="form">
                 <form action="">
-                    <input id="box-email" type="email" value="your email address">
-                </form>
-                <img src="./img/Button (1).png" alt="">
+                    <input id="box-email" type="email" value="" placeholder="your email address">                </form>
+                <div class="logo-send">
+                    <img src="./img/Button (1).png" alt="">
+                </div>
             </div>
         </div>
     </footer>
-
 
 </body>
 

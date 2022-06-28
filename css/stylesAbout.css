@@ -9,7 +9,8 @@ body {
     color: #ffffff;
 }
 
-header{
+/*++++++++++++++++++++++++header++++++++++++*/
+#header{
     padding: 5px 49px 100px 49px;
     display:flex; 
     justify-content: space-between;   
@@ -20,30 +21,30 @@ header{
     height: 70px;
 }
 
-ul{
+.ul{
     margin: 25px 0 0 0;
     font-size: 18px;
 }
 
-li {
+.li {
     display: inline;
     list-style-type: none;
     margin: 10px;
 }
-
+ 
 a {
     text-decoration: none;
 }
 
-a:visited, a:link {
+#header a:visited, #header a:link {
     color: white;
 } 
 
-a:hover {
+#header a:hover {
     color: #ffb742;
 }
 
-button {
+#button {
     font-weight: 800;
     color: black;
     width: 80px;
@@ -57,7 +58,6 @@ button {
     border-style: none;
     margin: 15px 5px;
 }
-
 /*+++++++++++++++++End Header++++++++++++++++++++++++++*/
 
 #container{
@@ -72,28 +72,46 @@ button {
     padding: 0px 30px 40px 30px;
 }
 
-section h4{
+#container h4{
     color:#ffb742;
     padding: 10px 15px;
     font-size: 20px;
 }
 
-section h1{
+#container h1{
     font-family: 'roboto';
     font-size: 48px;
     padding-bottom: 30px;
 }
 
-section p{
+#container p{
     font-size: 16px;
     padding-bottom: 60px;
 }
 
+#container button{
+    font-weight: 800;
+    color: black;
+    width: 80px;
+    height: 40px;
+    left: 1271px;
+    top: 23.06px;
+
+    background: #FFB742;
+    border: 2px solid #FFB742;
+    border-radius: 50px;
+    border-style: none;
+    margin: 15px 5px;
+}
+
 /*++++++++++++++++++++++++++++endMain++++++++++++++++++++++*/
 
-footer{
+/*++++++++++++++++++++footer+++++++++++*/
+#footer{
     display: flex;
     background-color: #1c1c1c;
+    justify-content: space-around;
+    margin-bottom: 20px;
     padding-bottom: 100px;
     padding-top: 100px;
     padding-left: 20px;
@@ -104,6 +122,7 @@ footer{
     display: block;
     color: #7c7c7c;
     font-size: 18px;
+    margin: 10px;
 }
 
 .color:link, .color:visited {
@@ -114,7 +133,7 @@ footer{
     color: white;
 }
 
-footer h3{
+#footer h3{
     color: #FFB742;
     padding-bottom: 30px ;
     font-size: 28px;
@@ -136,14 +155,14 @@ footer h3{
 
 #center{
     width: 140px;
-    padding-left: 10px;
+    padding-left: 0px;
 }
 
 #alinear-link{
     padding: 40px 0px 0px 100px;
 }
 
-footer ul{
+#footer ul{
     padding-left: 0px;
     margin-top: 20px;
 }
@@ -157,7 +176,7 @@ footer ul{
     padding: 40px 0px 0px 120px;
 }
 
-footer h4{
+#footer h4{
     font-size: 21px;
 }
 
@@ -174,10 +193,17 @@ footer h4{
     border-radius: 30px;
     padding: 15px;
     font-size: 18px;
+    border: none;
+    outline: none;
 }
 
 #form{
     display:flex;
+}
+
+.logo-send{
+    position: relative;
+    right: 45px;
 }
 
 

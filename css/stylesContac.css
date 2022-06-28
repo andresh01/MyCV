@@ -60,7 +60,83 @@ button {
 
 /*+++++++++++++++++++++++++End++++++++++++++++++++++++++*/
 
+/*+++++++++++++++++++++++Main++++++++++++++++*/
+#contact {
+    display: flex;
+    justify-content:center;
+}
 
+#main h4{
+    width: 150px;
+    height: 40px;
+    color: #FFB742;
+    background: rgba(255, 255, 255, 0.08);
+    font-family: 'Poppins';
+    font-size: 20px;
+    border-radius: 50px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+#casillas{
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 80px;
+}
+
+#name{
+    width: 510px;
+    height: 80px;
+    background-color: #212529;
+    color: white;
+    font-size: 30px;
+    border: none;
+    border-bottom: 1px solid #676767;
+    outline: none;
+    
+}
+
+#email{
+    width: 510px;
+    height: 80px;
+    background-color: #212529;
+    color: white;
+    font-size: 30px;
+    border: none;
+    border-bottom: 1px solid #676767;
+    outline: none;
+}
+
+#phone{
+    width: 510px;
+    height: 80px;
+    background-color: #212529;
+    color: white;
+    font-size: 30px;
+    border: none;
+    border-bottom: 1px solid #676767;
+    outline: none;
+}
+
+::placeholder{
+    color: #ffffff;
+}
+
+#button-send{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 160px;
+    position: relative;
+    right: 220px;
+
+}
 
 /*+++++++++++++++++++++++++End++++++++++++++++++++++++++*/
 
@@ -140,3 +216,22 @@ footer h4{
     margin-bottom: 60px;
 }
 
+#box-email{
+    height: 30px;
+    background-color: #212529;
+    color: #7c7c7c;
+    border-radius: 30px;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
+
+#form{
+    display:flex;
+}
+
+.logo-send{
+    position: relative;
+    right: 45px;
+}

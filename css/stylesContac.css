@@ -87,19 +87,40 @@ button {
 }
 
 #cajonChiste{
-    width: 300px;
+    width: 350px;
     height: 200px;
     background-color: white;
     border-radius: 10px;
     margin: 0 auto;
-    
-   
 }
 
 #chiste{
     display: flex;
-    color : black;
+    color : black; 
+}
+
+#oneMore{
+    font-weight: 800;
+    color: black;
+    width: 80px;
+    height: 40px;
+    left: 1271px;
+    top: 23.06px;
+
+    background: #FFB742;
+    border: 2px solid #FFB742;
+    border-radius: 50px;
+    border-style: none;
+    margin: 0 auto;
     
+}
+
+.botonChiste{
+    display: flex;
+    justify-content: center;
+    position:relative;
+    top: 165px;
+    right: 0px;
 }
 
 #casillas{

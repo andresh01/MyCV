@@ -2,7 +2,7 @@
     margin: 0;
 }
 
-body {
+.body {
     background-color: #212529;
     font-family: 'Poppins';
     color: #ffffff;
@@ -55,11 +55,12 @@ button {
     border-radius: 50px;
     border-style: none;
     margin: 15px 5px;
+    
 }
 
 /*+++++++++++++++++++++++++End++++++++++++++++++++++++++*/
 
-/*+++++++++++++++++++++++Main++++++++++++++++*/
+/*+++++++++++++Main Contact++++++++++++++++*/
 
 #contact {
     display: flex;
@@ -87,8 +88,8 @@ button {
 }
 
 #cajonChiste{
-    width: 350px;
-    height: 200px;
+    width:fit-content; /*350px;*/
+    height: 250px;
     background-color: white;
     border-radius: 10px;
     margin: 0 auto;
@@ -96,7 +97,22 @@ button {
 
 #chiste{
     display: flex;
-    color : black; 
+    justify-content: center;
+    color : black;
+    font-size: 20px;
+    font-family:'Poppins'; 
+    padding: 10px;
+    word-wrap: break-word;
+}
+
+#respuesta{
+    display: flex;
+    justify-content: center;
+    color : black;
+    font-size: 20px;
+    font-family:'Poppins'; 
+    padding: 10px;
+    word-wrap: break-word;
 }
 
 #oneMore{
@@ -112,15 +128,15 @@ button {
     border-radius: 50px;
     border-style: none;
     margin: 0 auto;
+    cursor: pointer;
     
 }
 
 .botonChiste{
     display: flex;
     justify-content: center;
-    position:relative;
-    top: 165px;
-    right: 0px;
+    margin-top: -20px;
+
 }
 
 #casillas{
@@ -183,7 +199,7 @@ button {
 
 }
 
-/*+++++++++++++++++++++++++End++++++++++++++++++++++++++*/
+/*+++++++++++++++++++++++++End Main+++++++++++++++++++++++++*/
 
 #footer{
     display: flex;
@@ -286,4 +302,12 @@ button {
 .logo-send{
     position: relative;
     right: 45px;
+}
+
+/*++++ Light Mode+++++*/
+
+.chance-mode-body {
+    background-color: white;
+    font-family: 'Poppins';
+    color: black;
 }

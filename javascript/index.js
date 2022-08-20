@@ -8,20 +8,31 @@ botonchange.addEventListener("click", cambio);
 function cambio() {
 
     let body = document.querySelector('.body')
-    body.classList.toggle('chance-mode-body')
+    body.classList.toggle('change-mode-body')
 
-    let letras = document.querySelectorAll('.size')
-    letras.forEach(element => {
+    let textomain = document.querySelectorAll('.size')
+    textomain.forEach(element => {
         element.classList.toggle('change-mode-size')
     });
-    
-    
+
+    let letrasnav = document.querySelectorAll('a')
+    letrasnav.forEach(element => {
+        element.classList.toggle('change-mode-a')
+    }); 
+     
+    let cajaexperiencia = document.querySelectorAll('.small-box')
+    cajaexperiencia.forEach(element => {
+        element.classList.toggle('change-mode-small-box')
+    });
+
+
+
 
 }
 
 
 
-window.addEventListener('DOMContentLoaded',chistesAleatorios)
+window.addEventListener('DOMContentLoaded', chistesAleatorios)
 
 const botton = document.getElementById("oneMore");
 

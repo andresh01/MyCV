@@ -10,42 +10,46 @@
 
 /*+++++++++++header++++++++++++*/
 
-#header{
+#header {
     padding: 5px 49px 100px 49px;
-    display:flex; 
-    justify-content: space-between;   
+    display: flex;
+    justify-content: space-between;
 }
 
-.logo{
+.logo {
     width: 65px;
     height: 70px;
 }
 
-.ul{
+.ul {
     margin: 25px 0 0 0;
     font-size: 18px;
+    
 }
 
 .li {
     display: inline;
     list-style-type: none;
     margin: 10px;
-}
- 
-a {
-    text-decoration: none;
+   
 }
 
-#header a:visited, #header a:link {
+a {
+    text-decoration: none;
     color: white;
-} 
+}
+
+/* #header a:visited,
+#header a:link {
+    color: white;
+} */
 
 #header a:hover {
     color: #ffb742;
 }
 
-#button:active{
-    transform: scale(0.98);
+#button:active {
+    transform: scale(0.94);
 }
 
 #button {
@@ -69,7 +73,7 @@ a {
 
 
 /*+++++++++Footer++++++++++*/
-#footer{
+#footer {
     display: flex;
     background-color: #1c1c1c;
     justify-content: space-around;
@@ -79,30 +83,31 @@ a {
     font-family: "Work Sans";
 }
 
-.li-footer{
+.li-footer {
     display: block;
     color: #7c7c7c;
     font-size: 18px;
     margin: 10px;
 }
 
-.color:link, .color:visited {
+.color:link,
+.color:visited {
     color: #7c7c7c;
 }
 
-.color:hover{
+.color:hover {
     color: white;
 }
 
-#footer h3{
+#footer h3 {
     color: #FFB742;
-    padding-bottom: 30px ;
+    padding-bottom: 30px;
     font-size: 28px;
     font-family: 'Poppins';
 
 }
 
-#text{
+#text {
     font-size: 16px;
     font-family: 'work Sans';
     color: #D4D4D4;
@@ -110,45 +115,46 @@ a {
 }
 
 
-#alinear-nombre{
+#alinear-nombre {
     padding: 30px 0px 0px 20px;
 }
 
-#center{
+.center {
     width: 140px;
     padding-left: 0px;
+    color: white;
 }
 
-#alinear-link{
+#alinear-link {
     padding: 40px 0px 0px 100px;
 }
 
-#footer ul{
+#footer ul {
     padding-left: 0px;
     margin-top: 20px;
 }
 
-#alinear-social{
+#alinear-social {
     padding: 40px 0px 0px 120px;
 }
 
-#alinear-hire{
+#alinear-hire {
     width: 280px;
     padding: 40px 0px 0px 120px;
 }
 
-#footer h4{
+#footer h4 {
     font-size: 21px;
 }
 
-#alinear-hire p{
+#alinear-hire p {
     color: #7c7c7c;
     margin-top: 18px;
     margin-bottom: 60px;
     line-height: 30px;
 }
 
-#box-email{
+#box-email {
     height: 30px;
     background-color: #212529;
     color: #7c7c7c;
@@ -160,11 +166,11 @@ a {
     outline: none;
 }
 
-#form{
-    display:flex;
+#form {
+    display: flex;
 }
 
-.logo-send{
+.logo-send {
     position: relative;
     right: 45px;
 }
@@ -175,14 +181,14 @@ a {
 /*+++++++++Main index++++++++++*/
 
 #main {
-    
+
     padding: 90px 383px 110px 382px;
     justify-content: center;
     font-family: 'Inter';
-    text-align:center;
+    text-align: center;
 }
 
-#main img{
+#main img {
     border-radius: 200px;
     margin-top: 80px;
 }
@@ -192,7 +198,7 @@ a {
     display: inline;
 }
 
-#h3{
+#h3 {
     font-size: 24px;
     margin: 30px;
 }
@@ -202,7 +208,7 @@ a {
 
 /*+++++++++Boxes index++++++++++*/
 
-#caja-experiencia{
+#caja-experiencia {
     display: flex;
     margin-bottom: 130px;
     margin-top: 90px;
@@ -220,35 +226,35 @@ a {
     border-radius: 10px;
 }
 
-.numeros{
+.numeros {
     color: #ffb742;
     font-size: 32px;
 }
 
-.alinearTexto{
+.alinearTexto {
     display: flex;
 
 }
 
-span{
+span {
     display: block;
     text-align: center;
 }
 
-.espacioNumero{
+.espacioNumero {
     margin: 25px 52px;
     display: block;
     text-align: center;
-    
+
 }
 
-.icono{
+.icono {
     width: 64px;
     height: 64px;
-    padding: 28px 30px ;
+    padding: 28px 30px;
 }
- 
-.size{
+
+.size {
     font-size: 16px;
 }
 
@@ -257,34 +263,34 @@ span{
 
 
 /*+++++++++Main Experience+++++++++*/
-#section{
+#section {
     display: flex;
     flex-direction: column;
     margin-bottom: 110px;
 }
 
-.box2{
+.box2 {
     text-align: center;
 
 }
 
-#exp h4{
-    color:#FFB742;
-    background-color: rgba(255, 255, 255, 0.08);
+#exp h4 {
+    color: #FFB742;
+    background-color:  #7b7b7b37;
     font-size: 20px;
     border-radius: 50px;
     width: 150px;
     padding: 8px 0px 8px 0px;
-    margin-bottom: 20px;  
+    margin-bottom: 20px;
 }
 
-#exp{
+#exp {
     display: flex;
     justify-content: center;
-    
+
 }
 
-.h2{
+.h2 {
     margin-bottom: 45px;
     font-family: 'Roboto';
     font-size: 25px;
@@ -305,7 +311,6 @@ span{
     background-color: white;
     color: black;
     margin: 10px;
-
 }
 
 .flex-smallbox {
@@ -313,20 +318,20 @@ span{
     justify-content: space-between;
 }
 
-.logo{
+.logo {
     margin: 13px;
 }
 
-.texto{
+.texto {
     margin: 13px 0px 0px 13px;
 }
 
-.texto h3{
+.texto h3 {
     margin-bottom: 10px;
     line-height: 34px;
 }
 
-.descripcion{
+.descripcion {
     margin: 20px 13px 20px 13px;
 }
 
@@ -334,36 +339,36 @@ span{
 
 
 /*++++++++++++Main About++++++++++*/
-#container{
+#container {
     display: flex;
 }
 
-#sub-container{
+#sub-container {
     padding: 110px 10px 70px 30px;
 }
 
-#image{
+#image {
     padding: 0px 30px 40px 30px;
 }
 
-#container h4{
-    color:#ffb742;
+#container h4 {
+    color: #ffb742;
     padding: 10px 15px;
     font-size: 20px;
 }
 
-#container h1{
+#container h1 {
     font-family: 'roboto';
     font-size: 48px;
     padding-bottom: 30px;
 }
 
-#container p{
+#container p {
     font-size: 16px;
     padding-bottom: 60px;
 }
 
-#container button{
+#container button {
     font-weight: 800;
     color: black;
     width: 80px;
@@ -376,6 +381,7 @@ span{
     border-radius: 50px;
     border-style: none;
     margin: 15px 5px;
+    cursor: pointer;
 }
 
 /*++++++++++++End Main About++++++++++*/
@@ -385,14 +391,14 @@ span{
 
 #contact {
     display: flex;
-    justify-content:center;
+    justify-content: center;
 }
 
-#main h4{
+#main h4 {
     width: 150px;
     height: 40px;
     color: #FFB742;
-    background: rgba(255, 255, 255, 0.08);
+    background: #7b7b7b37;
     font-family: 'Poppins';
     font-size: 20px;
     border-radius: 50px;
@@ -401,42 +407,42 @@ span{
     align-items: center;
 }
 
-#textoSmile{
+#textoSmile {
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 40px;
     text-align: center;
 }
 
-#cajonChiste{
-    width:fit-content; /*350px;*/
-    height: 250px;
+#cajonChiste {
+    width: 400px;
+    height: 350px;
     background-color: white;
     border-radius: 10px;
     margin: 0 auto;
 }
 
-#chiste{
+#chiste {
     display: flex;
     justify-content: center;
-    color : black;
+    color: black;
     font-size: 20px;
-    font-family:'Poppins'; 
+    font-family: 'Poppins';
     padding: 10px;
     word-wrap: break-word;
 }
 
-#respuesta{
+#respuesta {
     display: flex;
     justify-content: center;
-    color : black;
+    color: black;
     font-size: 20px;
-    font-family:'Poppins'; 
+    font-family: 'Poppins';
     padding: 10px;
     word-wrap: break-word;
 }
 
-#oneMore{
+#oneMore {
     font-weight: 800;
     color: black;
     width: 80px;
@@ -450,29 +456,29 @@ span{
     border-style: none;
     margin: 0 auto;
     cursor: pointer;
-    
+
 }
 
-.botonChiste{
+.botonChiste {
     display: flex;
     justify-content: center;
     margin-top: -20px;
 
 }
 
-#casillas{
+#casillas {
     display: flex;
     justify-content: center;
 }
 
-.form{
+.form {
     display: flex;
     flex-direction: column;
-    
+
     margin-top: 80px;
 }
 
-#name{
+#name {
     width: 510px;
     height: 80px;
     background-color: #212529;
@@ -481,21 +487,10 @@ span{
     border: none;
     border-bottom: 1px solid #676767;
     outline: none;
-    
+
 }
 
-#email{
-    width: 510px;
-    height: 80px;
-    background-color: #212529;
-    color: white;
-    font-size: 30px;
-    border: none;
-    border-bottom: 1px solid #676767;
-    outline: none;
-}
-
-#phone{
+#email {
     width: 510px;
     height: 80px;
     background-color: #212529;
@@ -506,7 +501,18 @@ span{
     outline: none;
 }
 
-#casillas ::placeholder{
+#phone {
+    width: 510px;
+    height: 80px;
+    background-color: #212529;
+    color: white;
+    font-size: 30px;
+    border: none;
+    border-bottom: 1px solid #676767;
+    outline: none;
+}
+
+#casillas ::placeholder {
     color: #ffffff;
 }
 
@@ -520,19 +526,50 @@ span{
 
 }
 
+.botonSend {
+    font-weight: 800;
+    color: black;
+    width: 80px;
+    height: 40px;
+    left: 1271px;
+    top: 23.06px;
+
+    background: #FFB742;
+    border: 2px solid #FFB742;
+    border-radius: 50px;
+    border-style: none;
+    margin: 15px 5px;
+    cursor:pointer;
+    
+}
+
 /*+++++++++++End Main Contact++++++++++++*/
 
 
 
 /*++++ Light Mode+++++*/
 
-.chance-mode-body {
+.change-mode-body {
     background-color: white;
     font-family: 'Poppins';
     color: black;
 }
 
-.change-mode-size{
+.change-mode-size {
     font-size: 16px;
-    color: violet;
+    color: white;
+}
+
+.change-mode-a {
+    text-decoration: none;
+    color: black;
+}
+
+.change-mode-small-box {
+    width: 315px;
+    height: 330px;
+    border-radius: 8px;
+    background-color:#212529;
+    color: white;
+    margin: 10px;
 }
